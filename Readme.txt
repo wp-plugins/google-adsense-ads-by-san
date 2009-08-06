@@ -4,7 +4,7 @@ Plugin URI: http://www.w3cgallery.com/w3c-css/wordpress-google-adsense-ads-by-sa
 Donate link: http://windowshostingpoint.com/work/payment/
 Tags: Google Adsense,Affliate ads, banners 
 Requires at least: 1.1
-Tested up to: 2.6.3
+Tested up to: 2.8.3
 Stable tag: trunk 
 
 Display Google Adsense,Affliate ads on your website easily, just copy and paste. It creates a tab "Google Adsense Ads" in "Settings" or "Options" tab.
@@ -22,7 +22,7 @@ admin can just copy past google adsense codes, or other affliate banner codes in
 
 Paste this code where you want it to display Ads <?php DisplayAds(); ?>
 
-Or you can pass variable too like this default setting <?php featuredpostsList($type = ´SideBar´) ?> for display SideBar ads.
+Or you can pass variable too like this default setting <?php DisplayAds($type = ´SideBar´) ?> for display SideBar ads.
 
 <a href="http://www.w3cgallery.com/w3c-css/wordpress-google-adsense-ads-by-san">for Instructions and help online Please visit.</a>
 If you like this plugin, please leave your comments on w3cgallery.com 
@@ -49,7 +49,7 @@ If you like this plugin, please leave your comments on w3cgallery.com
 3. Go to Settings/options >> "Google Adsense Ads" tab to update your google adsense codes into the boxes.
 4. there are 2 boxes, for side bar and ContentTop those for your help only, you can add any size codes in these boxes, but you only need use right codes on your page to display particular banner.
 5. Paste this code where you want it to display Ads <?php DisplayAds(); ?>  for "sidebar" banners
-6. use <?php featuredpostsList($type = ´ContentTop´) ?> for "contenttop" banner
+6. use <?php DisplayAds($type = ´ContentTop´) ?> for "contenttop" banner
 
 
 

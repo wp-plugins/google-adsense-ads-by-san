@@ -3,7 +3,7 @@
 Plugin Name: Google Adsense Ads 
 Plugin URI: http://www.w3cgallery.com/w3c-css/wordpress-google-adsense-ads-by-san
 Description: Display Google Adsense,Affliate ads on your website easily, just copy and paste. It creates a tab "Google Adsense Ads" in "Settings" or "Options" tab
-Version: 1.0
+Version: 1.2
 Author: SAN - w3cgallery.com & Windowshostingpoint.com
 Author URI: http://www.w3cgallery.com/
 */
@@ -88,7 +88,7 @@ echo '<div class="wrap">';
 		</table>";
 				
 echo '<Div class="submit"><input type="submit" value="Save your Ads" /></div>
-<p>Paste this code where you want it to display Ads <strong>&lt;?php DisplayAds(); ?&gt;</strong> <br/> Or you can pass variable too like this default setting <strong>&lt;?php featuredpostsList($type = &acute;SideBar&acute;) ?&gt;</strong> for display SideBar ads.</p>
+<p>Paste this code where you want it to display Ads <strong>&lt;?php DisplayAds(); ?&gt;</strong> <br/> Or you can pass variable too like this default setting <strong>&lt;?php DisplayAds($type = "SideBar") ?&gt;</strong> for display SideBar ads.</p>
 		</form>';
 echo '<p><a href="http://www.w3cgallery.com/w3c-css/wordpress-google-adsense-ads-by-san">for Instructions and help online Please visit.</a> <br/>
 If you like this plugin, please leave your comments on <a href="http://www.w3cgallery.com/w3c-validate/w3c-blog">w3cgallery.com</a> & <a href="http://www.Windowshostingpoint.com">Windowshostingpoint.com</a></p>';
